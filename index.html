@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internet de las Cosas (IoT)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="contenedor">
+      <h1>Internet de las Cosas <span>(IoT)</span></h1>
+      <p>Aprende los conceptos clave y pon a prueba tus conocimientos.</p>
+      <nav class="menu">
+        <a href="#investigacion">Investigación</a>
+        <a href="#cuestionario">Cuestionario</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <!-- ===================== INVESTIGACIÓN ===================== -->
+    <section id="investigacion" class="seccion">
+      <h2>1. Investigación</h2>
+
+      <article class="tarjeta">
+        <h3>Definición</h3>
+        <p>
+          El <strong>Internet de las Cosas (IoT)</strong> es la red de objetos físicos
+          (“cosas”) que incorporan <strong>sensores, software y conectividad</strong>, lo que
+          les permite recopilar e intercambiar datos a través de Internet sin necesidad
+          de intervención humana constante.
+        </p>
+        <p>
+          El término fue acuñado por <strong>Kevin Ashton en 1999</strong>, mientras trabajaba
+          en el MIT con tecnología de identificación por radiofrecuencia (RFID).
+        </p>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Características</h3>
+        <ul>
+          <li><strong>Conectividad:</strong> los dispositivos se comunican entre sí y con Internet.</li>
+          <li><strong>Detección:</strong> capturan información del entorno (temperatura, movimiento, luz, etc.).</li>
+          <li><strong>Identificación única:</strong> cada dispositivo tiene un identificador o dirección propia (por ejemplo, una dirección IP).</li>
+          <li><strong>Automatización:</strong> pueden actuar por sí solos según reglas o datos recibidos.</li>
+          <li><strong>Tiempo real:</strong> los datos se envían y procesan de forma continua.</li>
+          <li><strong>Escalabilidad:</strong> una red puede crecer de unos pocos a millones de dispositivos.</li>
+        </ul>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Funcionamiento</h3>
+        <p>Un sistema IoT funciona, de forma general, en cuatro etapas:</p>
+        <ol class="pasos">
+          <li><strong>Captura:</strong> los sensores recogen datos del entorno.</li>
+          <li><strong>Transmisión:</strong> los datos viajan mediante tecnologías como Wi-Fi, Bluetooth, Zigbee, LoRaWAN o redes móviles 4G/5G.</li>
+          <li><strong>Procesamiento:</strong> la información se analiza en la nube o cerca del dispositivo mediante <strong>edge computing</strong> (computación en el borde), que reduce la latencia.</li>
+          <li><strong>Acción:</strong> se ejecuta una respuesta automática mediante actuadores o se muestra la información al usuario en una aplicación.</li>
+        </ol>
+        <p class="nota">
+          <strong>Dato:</strong> LoRaWAN está pensada para enviar pequeñas cantidades de datos a
+          <strong>largas distancias con muy bajo consumo de energía</strong>, mientras que Bluetooth
+          se usa para distancias cortas.
+        </p>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Componentes</h3>
+        <div class="rejilla">
+          <div class="item"><h4>Sensores</h4><p>Miden variables físicas del entorno y las convierten en datos.</p></div>
+          <div class="item"><h4>Actuadores</h4><p>Realizan acciones físicas: encender una luz, abrir una válvula o mover un motor.</p></div>
+          <div class="item"><h4>Microcontroladores</h4><p>Pequeños “cerebros” que procesan datos en el dispositivo, como Arduino, ESP32 o Raspberry Pi.</p></div>
+          <div class="item"><h4>Gateway (pasarela)</h4><p>Actúa como puente entre los dispositivos y la nube, traduciendo protocolos de comunicación.</p></div>
+          <div class="item"><h4>Plataforma en la nube</h4><p>Almacena, procesa y analiza grandes volúmenes de datos.</p></div>
+          <div class="item"><h4>Interfaz de usuario</h4><p>Aplicaciones web o móviles para visualizar datos y controlar los dispositivos.</p></div>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <h3>Aplicaciones</h3>
+        <ul>
+          <li><strong>Hogar inteligente:</strong> iluminación, termostatos, cerraduras y asistentes de voz.</li>
+          <li><strong>Salud:</strong> relojes y pulseras que miden el ritmo cardíaco y monitoreo remoto de pacientes.</li>
+          <li><strong>Industria (IIoT):</strong> el <em>Internet Industrial de las Cosas</em> permite el <strong>mantenimiento predictivo</strong>, es decir, detectar fallas en máquinas antes de que ocurran.</li>
+          <li><strong>Agricultura de precisión:</strong> sensores de humedad del suelo que activan el riego solo cuando es necesario.</li>
+          <li><strong>Ciudades inteligentes:</strong> alumbrado, semáforos y gestión de estacionamientos y residuos.</li>
+          <li><strong>Transporte y logística:</strong> rastreo de flotas y envíos en tiempo real.</li>
+        </ul>
+      </article>
+
+      <div class="dos-columnas">
+        <article class="tarjeta ventajas">
+          <h3>Ventajas</h3>
+          <ul>
+            <li>Automatización de tareas repetitivas.</li>
+            <li>Ahorro de energía y recursos.</li>
+            <li>Toma de decisiones basada en datos.</li>
+            <li>Monitoreo y control a distancia.</li>
+            <li>Mejora de la calidad de vida y la seguridad.</li>
+          </ul>
+        </article>
+
+        <article class="tarjeta desventajas">
+          <h3>Desventajas</h3>
+          <ul>
+            <li><strong>Vulnerabilidades de seguridad</strong>: dispositivos con contraseñas débiles pueden ser hackeados.</li>
+            <li>Riesgos para la <strong>privacidad</strong> por la gran cantidad de datos personales recopilados.</li>
+            <li>Dependencia de la conexión a Internet.</li>
+            <li>Falta de estándares comunes entre fabricantes (problemas de compatibilidad).</li>
+            <li>Costos iniciales de implementación y generación de residuos electrónicos.</li>
+          </ul>
+        </article>
+      </div>
+
+      <article class="tarjeta">
+        <h3>Ejemplos reales</h3>
+        <ul>
+          <li><strong>Termostato Google Nest:</strong> aprende los hábitos de los usuarios para ajustar la temperatura y ahorrar energía.</li>
+          <li><strong>Amazon Alexa:</strong> asistente de voz que controla luces, enchufes y otros dispositivos del hogar.</li>
+          <li><strong>Apple Watch y Fitbit:</strong> relojes que registran actividad física, sueño y ritmo cardíaco.</li>
+          <li><strong>Barcelona:</strong> ciudad que utiliza sensores para gestionar el alumbrado, el riego de parques y el estacionamiento.</li>
+          <li><strong>Botnet Mirai (2016):</strong> malware que infectó cámaras y routers con contraseñas predeterminadas para lanzar ataques masivos, mostrando los riesgos de seguridad del IoT.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- ===================== CUESTIONARIO ===================== -->
+    <section id="cuestionario" class="seccion">
+      <h2>2. Cuestionario</h2>
+      <p>Responde las 10 preguntas y pulsa <strong>Calificar</strong>. Todas se basan en la investigación anterior.</p>
+
+      <form id="formulario">
+        <div id="preguntas"></div>
+        <p id="aviso" class="aviso" hidden></p>
+        <div class="acciones">
+          <button type="submit" class="boton">Calificar</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ===================== EVALUACIÓN ===================== -->
+    <section id="resultados" class="seccion" hidden>
+      <h2>3. Evaluación</h2>
+      <div class="puntuacion">
+        <p id="puntaje" class="puntaje"></p>
+        <p id="mensaje"></p>
+      </div>
+      <div id="detalle"></div>
+      <div class="acciones">
+        <button type="button" id="reintentar" class="boton secundario">Volver a intentar</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p>Página educativa sobre Internet de las Cosas</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
